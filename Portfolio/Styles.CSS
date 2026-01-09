@@ -1,0 +1,134 @@
+
+h1 { 
+    color: white;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 70px;
+}
+
+.taskbar {
+    width: 100%;
+    height: 100px;
+    background-color: pink;
+    border: 4px solid pink;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    padding: 5px;
+    display: flex;
+}
+
+.menuitem {
+    height: 40px;
+    margin: 15px;
+    font-family: 'Comic Sans MS';
+    color: white;
+    transition: color 0.4s ease;
+    border: 2px solid #ffc9df;
+    background-color: #ffc9df;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.menu ul {
+    display: none;
+    position: absolute;
+    top: 90px;
+    background-color: #ffc9df;
+    padding: 15px;
+    border-radius:15px;
+    list-style: none;
+    font-family: 'comic sans ms';
+    color: white;
+    text-align: center;
+}
+
+a {
+    padding: 2px;
+    font-weight: bold;
+    transition: color 0.4s ease;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: darkmagenta;
+}
+
+.menuparent {
+    display: flex;
+    padding: 5px;
+}
+
+.menuitem:hover {
+    color: darkmagenta;
+}
+
+.menuparent:hover .dropdown {
+    display: block;
+}
+
+body {
+    background: linear-gradient(to bottom, pink,beige);
+}
+
+.profile-photo img { 
+    width: 300px;
+    height: auto;
+    border: 10px dashed white;
+    border-radius: 150px;
+}
+
+.about-box {
+    min-width: 700px;
+    min-height: 300px;
+    width: 50vw;
+    border: 5px dashed white;
+    background-color: pink;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.about-box h2 {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: Helvetica;
+    background-color: lightpink;
+    padding: 10px;
+}
+
+.about-box p {
+    padding: 3px;
+    text-align: center;
+    color: white;
+    font-size: 1.4vw;
+    font-family: 'comic sans ms';
+
+}
+
+.gallery {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.gallery-head {
+    font-size: 75px;
+    padding: 20px;
+    color: white;
+    background-color: pink;
+    text-align: center; 
+    width: 100%;
+    font-family: 'Comic Sans MS';
+}
+
+.language-gallery img {
+    border: 5px dashed white;
+    width: 300px;
+    border-radius: 150px;
+    background-color: beige;
+}
