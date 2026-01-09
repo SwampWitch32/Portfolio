@@ -44,6 +44,7 @@ h1 {
     font-family: 'comic sans ms';
     color: white;
     text-align: center;
+    cursor: pointer;
 }
 
 a {
@@ -131,4 +132,18 @@ body {
     width: 300px;
     border-radius: 150px;
     background-color: beige;
+}
+
+.language-gallery {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.html:hover, .godot:hover, .css:hover, .csharp:hover {
+    background-color: darkmagenta;
+    cursor: pointer;
 }
