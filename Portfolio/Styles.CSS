@@ -136,10 +136,12 @@ body {
 
 .language-gallery {
     margin: 20px;
+    width:  1500px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
