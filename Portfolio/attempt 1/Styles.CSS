@@ -61,6 +61,7 @@ a:hover {
 .menuparent {
     display: flex;
     padding: 5px;
+    cursor: pointer;
 }
 
 .menuitem:hover {
@@ -133,13 +134,14 @@ body {
 
 .language-gallery img {
     border: 5px dashed white;
-    width: 300px;
+    width: 200px;
     border-radius: 150px;
     background-color: beige;
+    transition: background-color 0.5s ease;
 }
 
 .language-gallery {
-    margin: 20px;
+    width: 60vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -147,7 +149,12 @@ body {
     flex-wrap: wrap;
 }
 
+.language-gallery-containers {
+    display: flex;
+    justify-content: center;
+}
+
 .html:hover, .godot:hover, .css:hover, .csharp:hover {
-    background-color: darkmagenta;
+    background-color: rgba(88, 20, 71, 0.7);
     cursor: pointer;
 }
